@@ -14,10 +14,10 @@ def get_the_keys(groceries)
 end
 
 # def get_the_keys(groceries)
-  keys_array #= []
+ # keys_array = []
   #code your solution here!
-  groceries.each #do |d_key, d_value|
-    keys_array.push(d_key)
+ # groceries.each #do |d_key, d_value|
+  #  keys_array.push(d_key)
   #end
   
   #return keys_array
