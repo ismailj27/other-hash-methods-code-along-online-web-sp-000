@@ -8,7 +8,7 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(groceries)
+# def get_the_keys(groceries)
   keys_array = []
   #code your solution here!
   groceries.each do |d_key, d_value|
@@ -16,4 +16,4 @@ def get_the_keys(groceries)
   end
   
   return keys_array
-end
+#end
