@@ -22,9 +22,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
- groceries.each do |type|
-  values = type.values
-  values_array.push(values)
- end
- values_array
+ groceries.values
 end
