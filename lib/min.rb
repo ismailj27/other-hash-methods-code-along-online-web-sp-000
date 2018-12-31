@@ -11,5 +11,5 @@ require 'pry'
 def get_the_min(groceries)
   keys_array = []
   #code your solution here!
-  
+  groceries
 end
