@@ -29,3 +29,6 @@ require 'pry'
 #  values_array
 #end
 
+def get_the_values(groceries)
+  groceries.values.flatten
+end
