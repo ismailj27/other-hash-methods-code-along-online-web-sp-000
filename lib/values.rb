@@ -23,7 +23,7 @@ require 'pry'
 def get_the_values(groceries)
   values_array = []
   #code your solution here!
-  groceries.each do |type_array|
+  groceries.each do |type, type_array|
     values_array.concat(type_array)
   end
   values_array
