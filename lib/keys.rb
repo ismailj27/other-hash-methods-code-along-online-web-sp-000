@@ -15,5 +15,5 @@ def get_the_keys(groceries)
     keys_array.push(d_key)
   end
   
-  return groceries
+  return keys_array
 end
