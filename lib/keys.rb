@@ -8,10 +8,6 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(groceries)
-  #code your solution here!
-  groceries.keys
-end
 
 # def get_the_keys(groceries)
  # keys_array = []
@@ -22,3 +18,8 @@ end
   
   #return keys_array
 #end
+
+def get_the_keys(groceries)
+  #code your solution here!
+  groceries.keys
+end
