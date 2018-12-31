@@ -12,7 +12,8 @@ def get_the_values(groceries)
   values_array = []
   #code your solution here!
   groceries.each do |type|
-    values_array.push(type.values)
+    values = type.values
+    values_array.push(values)
   end
   values_array
 end
