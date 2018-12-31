@@ -8,12 +8,14 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
+
+
+#def get_the_values(groceries)
   values_array = []
   #code your solution here!
-  groceries.each do |type|
-    values = type.values
-    values_array.push(values)
-  end
-  values_array
-end
+#  groceries.each do |type|
+  #  values = type.values
+  #  values_array.push(values)
+ # end
+ # values_array
+#end
