@@ -26,5 +26,5 @@ def get_the_values(groceries)
 groceries.each do |type_array|
   values_array.concat(type_array)
  end
- values_array
+  values_array
 end
