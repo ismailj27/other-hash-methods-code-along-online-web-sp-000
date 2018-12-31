@@ -9,13 +9,7 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  keys_array = []
   #code your solution here!
-  groceries.each do |d_key, d_value|
-    keys_array.push(d_key)
-  end
-  
-  return keys_array
 end
 
 # def get_the_keys(groceries)
