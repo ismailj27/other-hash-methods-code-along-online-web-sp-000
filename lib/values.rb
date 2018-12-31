@@ -20,11 +20,12 @@ require 'pry'
  # values_array
 #end
 
-def get_the_values(groceries)
-  values_array = []
+#def get_the_values(groceries)
+ # values_array = []
   #code your solution here!
-  groceries.each do |type, type_array|
-    values_array.concat(type_array)
-  end
-  values_array
-end
+ # groceries.each do |type, type_array|
+ #   values_array.concat(type_array)
+#  end
+#  values_array
+#end
+
